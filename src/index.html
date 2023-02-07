@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>awa</title>
+<script defer src="index.bundle.js"></script><link href="style.css" rel="stylesheet"></head>
+
+<body>
+  <div id="Frame">
+    <div id="BackGround">
+      <div class="styles hide" background-style="snow">
+        <div class="text">
+          <div class="txt txt1" Background-Text></div>
+          <div class="txt txt2" Background-Text></div>
+        </div>
+        <div class="snow"></div>
+        <div class="border">
+          <div class="top"></div>
+          <div class="bottom"></div>
+        </div>
+        <div class="filter">
+          <div class="dark"></div>
+        </div>
+      </div>
+      <div class="styles hide" background-style="city">
+        <div class="moon">
+          <div class="frame">
+            <div class="m1"></div>
+            <div class="m2"></div>
+          </div>
+        </div>
+        <div class="city">
+          <div class="c4"></div>
+          <div class="c3"></div>
+          <div class="c2"></div>
+          <div class="c1"></div>
+        </div>
+        <div class="filter">
+          <div class="dark"></div>
+        </div>
+      </div>
+      <div class="styles hide" background-style="mix">
+        <div class="text">
+          <div class="txt" Background-Text></div>
+        </div>
+        <div class="filter">
+          <div class="inv"></div>
+        </div>
+      </div>
+    </div>
+    <div id="Main">
+      <div class="link"></div>
+      <div class="bar">
+        <button class="setting" onclick="document.getElementById('Settings').classList.add('show')">設定</button>
+      </div>
+    </div>
+    <div id="Settings" class="window">
+      <div>
+        <div class="title">
+          <div class="title">設定</div>
+          <div class="close">
+            <div onclick="document.getElementById('Settings').classList.remove('show')"></div>
+          </div>
+        </div>
+        <div class="content"></div>
+      </div>
+    </div>
+    <div id="Export" class="window">
+      <div>
+        <div class="title">
+          <div class="title">導出設定檔</div>
+          <div class="close">
+            <div onclick="document.getElementById('Export').classList.remove('show')"></div>
+          </div>
+        </div>
+        <div class="content">
+          <fieldset class="output">
+            <legend>[導出]</legend>
+            <div class="out json">
+              <div class="title">Json</div>
+              <textarea class="out" readonly></textarea>
+              <input type="button" class="copy" value="複製json" />
+            </div>
+            <div class="out base64">
+              <div class="title">Base64</div>
+              <textarea class="out" readonly></textarea>
+              <input type="button" class="copy" value="複製base64" />
+            </div>
+            <div class="out link">
+              <div class="title">鏈接</div>
+              <textarea class="out" readonly></textarea>
+              <input type="button" class="copy" value="複製鏈接" />
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+    <div id="Filters">
+      <div class="bloom">
+        <div></div>
+      </div>
+      <div class="vignetting">
+        <div></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
