@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1000px" height="1000px" viewBox="0 0 1000 1000" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="群組">
+    <path d="M0 500C0 223.858 223.858 0 500 0C776.142 0 1000 223.858 1000 500C1000 776.142 776.142 1000 500 1000C223.858 1000 0 776.142 0 500Z" id="橢圓-2" fill="#FFF27E" fill-opacity="0" fill-rule="evenodd" stroke="none" />
+    <path d="M298.889 42.0915C227.133 128.646 184 239.786 184 361C184 637.142 407.858 861 684 861C755.541 861 823.572 845.975 885.111 818.909C793.398 929.536 654.928 1000 500 1000C223.858 1000 0 776.142 0 500C0 295.398 122.892 119.5 298.889 42.0915Z" id="橢圓-2-相減" fill="#FFF27E" fill-rule="evenodd" stroke="none" />
+  </g>
+</svg>
